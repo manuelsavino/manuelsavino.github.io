@@ -1,44 +1,193 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <title>Manuel Savino</title>
+<html>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div class="navigationOuter">
-            <div class="container">
-                <nav>
-                    <div class="brand">
-                        <h1>Manuel Savino</h1>
-                    </div>
-                    <ul>
-                        <li class="navi activePage"><a href="index.html">About</a></li>
-                        <li>|</li>
-                        <li class="navi"><a href="portfolio.html">Portfolio</a></li>
-                        <li>|</li>
-                        <li class="navi"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+<head>
+  <title>Manuel Savino</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="assets/js/parallax.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="assets/js/scrollparallax.js"></script>
+</head>
+
+
+<body>
+  <div id="particles-js"></div>
+  <!-- <div data-spy="scroll" data-target="#myNavbar" data-offset="60"> -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="myNavbar">
+    <!-- <a class="navbar-brand" href="#">My Portfolio</a> -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">My Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="section1" class="section">
+    <div class="container">
+      <div id="manuel" class="manuel">
+        <strong>
+          <h1 class="display-1 text-white">Manuel Savino</h1>
+        </strong>
+        <h4 class="text-warning">JavaScript, MongoDB, Express, React, Node.js</h4>
+        <img src="assets/img/manuel.jpg" class=" p-1 mb-5 mt-3 bg-white rounded img-fluid">
+      </div>
+    </div>
+  </div>
+  <!--Section 1-->
+  <!-- 
+  <div class="divider"></div> -->
+
+  <div id="section2" class="section">
+    <div class="container">
+      <h1 class="text-white bigLetters regular mb-3">my
+        <span class="bold">work</span>
+      </h1>
+      <div class="row no-gutters">
+        <div class="col-md-3">
+          <div class="card mr-2" style="width: 17rem; height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Guess The Word</h5>
+              <p class="card-text">University of Miami Full Stack Web Dev Bootcamp Assignment. Front End Javascript Guess the word game</p>
+              <a href="https://github.com/manuelsavino/guessTheWord" class="btn btn-primary">Github Repo</a>
             </div>
+          </div>
         </div>
-        <div class="container">
-            <section class="content">
-                <h2>About Me</h2>
-                <hr>
-                <img src="assets/images/manuel.jpg" alt="Picture of Manuel Savino" id="bio-Image">
-                <p class="bio">&nbsp; &nbsp; &nbsp; &nbsp;My Name is Manuel Savino, I graduated from FIU with a Bachelors in Information Technology. I currently work at the FIU Herbert
-                Wertheim College of Medicine as a Clinical IT Field Analyst 2. I'm currently enrolled in the University of Miami Full Stack
-                Web Development bootcamp. I've always had a passion for web development, with the help of the web, I've tought myself some
-                HTML, CSS, PHP and some Javascript.
-                </p> 
-                <p class="bio">On my free time I like to produce videos of anything that comes my way. Whether it be
-                Marketing videos for a store for their website, or just flying my drone creating cinematic views of Miami. As an addition
-                that goes hand in hand with the production of them, I've started to make motion graphics animations on Adobe After Effects.
-                </p>
+        <div class="col-md-3 ">
+          <div class="card mr-2" style="width: 17rem; height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Trivia Game</h5>
+              <p class="card-text">University of Miami Full Stack Web Dev Bootcamp Assignment. Front end Javascript Trivia Game</p>
+              <a href="https://github.com/manuelsavino/trivia" class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="card mr-2" style="width: 17rem; height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Rent My Space</h5>
+              <p class="card-text">Project 2 for University of Miami Web Dev bootcamp. Web app build with Node, Sequelize, Express and EJS.</p>
+              <a href="https://github.com/manuelsavino/project2" class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="card" style="width: 17rem; height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Train Schedule</h5>
+              <p class="card-text">University of Miami Full Stack Web Dev Bootcamp Assignment. Front End Site which uses moment.js</p>
+              <a href="https://github.com/manuelsavino/trainSchedule" class="btn btn-primary">Github Remo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2 no-gutters">
+        <div class="col-md-3 ">
+          <div class="card" style="width: 17rem; height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Liri</h5>
+              <p class="card-text">University of Miami Full Stack Web Dev Bootcamp Assignment. Node CLI app that uses Twitter API, Spotify API and OMBD API</p>
+              <a href="https://github.com/manuelsavino/liri" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="card" style="width: 17rem; height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Bamazon</h5>
+              <p class="card-text">University of Miami Full Stack Web Dev Bootcamp Assignment. Node and MySQL CLI app  </p>
+              <a href="https://github.com/manuelsavino/bamazon" class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="card" style="width: 17rem; height: 17rem;">
+            <div class="card-body">
+              <h5 class="card-title">Friend Finder</h5>
+              <p class="card-text">University of Miami Full Stack Web Dev Bootcamp Assignment. Web app built with Node and Express</p>
+              <a href="https://github.com/manuelsavino/friendFinder" class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="card" style="width: 17rem; height: 17rem;">
+            
+            <div class="card-body">
+              <h5 class="card-title">Table Express</h5>
+              <p class="card-text">FIU's Hackathon Shell Hacks. Web app build with Node, Express, MongoDb, and EJS</p>
+              <a href="https://github.com/manuelsavino/shellhacks_project" class="btn btn-primary">Github Repo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Container-->
+  </div>
+  <!--Section 2-->
 
-            </section>
+  <!-- <div class="divider"></div> -->
+  <div id="section3" class="section">
+    <div class="container">
+
+
+      <div class="row">
+        <div class="col-md-6 text-right mt-5">
+          <strong>
+            <h1 class="text-white bigLetters regular">LET'S</h1>
+          </strong>
+          <h1 class="text-white bigLetters bold mb-5">TALK!</h1>
         </div>
-        <footer class="footer"><p>Copyright &copy;</p></footer>
-    </body>
+        <div class="col-md-6">
+          <div class="jumbotron text-left">
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="email" class="form-control" id="name" placeholder="John Smith">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+
+              <div class="form-group">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+      <!--Row-->
+    </div>
+    <!--Section 3-->
+  </div>
+  <!--Container-->
+  <!-- </div> ScrollSpy -->
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+
 </html>
