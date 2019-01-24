@@ -62,31 +62,7 @@ transform: scale(1.05);
     transform: translateY(-20px) rotate(-17deg) scale(1.5)
 }
 
-.typing {
-  overflow: hidden; /*Ensures the content is not revealed until the animation*/
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; 
-  /* display: inline-block; */
-  animation: 
-    typing 5s steps(40, end),
-    blink-caret .5s step-end infinite;
 
-}
-
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 60% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-}
 #map {
 height: 95vh;  /* The height is 400 pixels */
 width: 50%;
@@ -175,5 +151,31 @@ textarea:focus{
     .main{
             min-height: 35rem;
     }
+
+    .typing {
+  overflow: hidden; /*Ensures the content is not revealed until the animation*/
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; 
+  /* display: inline-block; */
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret .5s step-end infinite;
+
+}
+
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 60% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
 }
 
