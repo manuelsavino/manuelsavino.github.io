@@ -164,6 +164,10 @@ textarea:focus{
     .navbar{
         background: #333A3F;
     }
+
+    .heading{
+        margin-top: 5rem;
+    }
  }
 
 @media all and (max-width: 1366px) and (min-width: 800px)
