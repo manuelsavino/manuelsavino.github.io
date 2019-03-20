@@ -40,25 +40,25 @@ $(function() {
   myFunction(x); // Call listener function at run time
   x.addListener(myFunction); // Attach listener function on state changes
 
-  $(".submit").on("click", event => {
-    event.preventDefault();
-    let name = $("input[type=text][name=name]").val();
-    let email = $("input[type=email][name=email]").val();
-    let subject = $("input[type=text][name=subject]").val();
-    let message = $("textarea").val();
+  // $(".submit").on("click", event => {
+  //   event.preventDefault();
+  //   let name = $("input[type=text][name=name]").val();
+  //   let email = $("input[type=email][name=email]").val();
+  //   let subject = $("input[type=text][name=subject]").val();
+  //   let message = $("textarea").val();
 
-    let body = { name, email, subject, message };
+  //   let body = { name, email, subject, message };
 
-    $.ajax({
-      type: "POST",
-      url: "https://fast-sierra-79160.herokuapp.com/email",
-      data: body,
-      crossDomain: true,
-      success: () => {
-        alert("success");
-      }
-    });
-  });
+  //   $.ajax({
+  //     type: "POST",
+  //     url: "https://fast-sierra-79160.herokuapp.com/email",
+  //     data: body,
+  //     crossDomain: true,
+  //     success: () => {
+  //       alert("success");
+  //     }
+  //   });
+  // });
 
   var typed = new Typed("#typed", {
     strings: [
