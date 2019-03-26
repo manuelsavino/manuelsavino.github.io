@@ -45,11 +45,11 @@
 .developer span {
   display: inline-block;
   transition: transform 0.3s;
+  color: gold;
 }
 
 .web span:hover,
 .developer span:hover {
-  color: gold;
   transform: translateY(-20px) rotate(17deg) scale(1.5);
 }
 .web span:nth-child(even):hover,
@@ -60,19 +60,6 @@
 #map {
   height: 95vh; /* The height is 400 pixels */
   width: 50%;
-}
-
-a[href^="https://maps.google.com/maps"] {
-  display: none !important;
-}
-
-.gmnoprint a,
-.gmnoprint span,
-.gm-style-cc {
-  display: none;
-}
-.gmnoprint div {
-  background: none !important;
 }
 
 .contact {
