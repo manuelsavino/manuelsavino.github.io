@@ -78,6 +78,7 @@ select.form-control {
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: 0;
+  color: #c2c2c2;
 }
 
 input[type="text"]:focus,
@@ -86,6 +87,7 @@ select.form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   background: transparent;
+  color: #c2c2c2;
 }
 
 textarea::-webkit-input-placeholder {
